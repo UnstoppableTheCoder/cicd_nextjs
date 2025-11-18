@@ -1,5 +1,5 @@
 cd cicd_nextjs
-git pull origin main
+git pull
 npm install
 npm run build
 npm run start
