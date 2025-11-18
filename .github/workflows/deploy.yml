@@ -22,7 +22,7 @@ jobs:
           key: ${{ secrets.PRIVATE_SSH_KEY }}
           port: 22
           passphrase: ${{ secrets.PASSPHRASE }}
-          script: 
+          script: |
             cd cicd_nextjs
             git pull
             npm install
